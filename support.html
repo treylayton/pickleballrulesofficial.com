@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support - The Pickleball Official</title>
+    <meta name="description" content="Get help with The Pickleball Official app. Frequently asked questions and contact information.">
+    <meta name="theme-color" content="#0A0E1A">
+    <link rel="canonical" href="https://thepickleballofficial.com/support.html">
+    <style>
+        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+        :root {
+            --blue: #3B82F6;
+            --blue-muted: #2563EB;
+            --blue-dim: rgba(59,130,246,0.12);
+            --card-bg: #141A2E;
+            --card-border: #1E2642;
+            --surface: #0A0E1A;
+            --bg: #070B14;
+            --text: #F0F2F5;
+            --text-secondary: #8B95B0;
+            --text-faint: #5A6580;
+            --divider: #1E2642;
+            --radius: 16px;
+        }
+
+        html { scroll-behavior: smooth; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'SF Pro Text', system-ui, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .container {
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        /* ── NAV ── */
+        nav {
+            position: fixed;
+            top: 0; left: 0; right: 0;
+            z-index: 100;
+            background: rgba(7,11,20,0.82);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border-bottom: 1px solid var(--divider);
+        }
+        nav .container {
+            display: flex;
+            align-items: center;
+            height: 56px;
+        }
+        .nav-back {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 15px;
+            font-weight: 600;
+            color: var(--blue);
+            text-decoration: none;
+            transition: opacity 0.2s;
+        }
+        .nav-back:hover { opacity: 0.8; }
+
+        /* ── CONTENT ── */
+        .page-header {
+            padding: 120px 0 48px;
+        }
+        .page-header h1 {
+            font-size: 40px;
+            font-weight: 800;
+            letter-spacing: -0.02em;
+            margin-bottom: 8px;
+        }
+        .page-header p {
+            font-size: 17px;
+            color: var(--text-secondary);
+        }
+
+        .faq-section {
+            margin-bottom: 64px;
+        }
+        .faq-section h2 {
+            font-size: 22px;
+            font-weight: 700;
+            margin-bottom: 24px;
+            letter-spacing: -0.01em;
+        }
+        .faq-item {
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
+            border-radius: var(--radius);
+            padding: 24px;
+            margin-bottom: 16px;
+        }
+        .faq-item h3 {
+            font-size: 17px;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+        .faq-item p {
+            font-size: 15px;
+            color: var(--text-secondary);
+            line-height: 1.65;
+        }
+        .faq-item a {
+            color: var(--blue);
+            text-decoration: none;
+        }
+        .faq-item a:hover { text-decoration: underline; }
+
+        /* ── CONTACT ── */
+        .contact-section {
+            margin-bottom: 64px;
+        }
+        .contact-section h2 {
+            font-size: 22px;
+            font-weight: 700;
+            margin-bottom: 12px;
+        }
+        .contact-section p {
+            font-size: 16px;
+            color: var(--text-secondary);
+            line-height: 1.7;
+            margin-bottom: 12px;
+        }
+        .contact-card {
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
+            border-radius: var(--radius);
+            padding: 28px;
+            text-align: center;
+        }
+        .contact-card p {
+            color: var(--text-secondary);
+            margin-bottom: 16px;
+        }
+        .contact-email {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: var(--blue);
+            color: #fff;
+            font-size: 16px;
+            font-weight: 600;
+            padding: 12px 24px;
+            border-radius: 980px;
+            text-decoration: none;
+            transition: background 0.2s;
+        }
+        .contact-email:hover { background: var(--blue-muted); }
+
+        /* ── FOOTER ── */
+        footer {
+            border-top: 1px solid var(--divider);
+            padding: 48px 0;
+            text-align: center;
+        }
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 24px;
+            margin-bottom: 24px;
+        }
+        .footer-links a {
+            font-size: 14px;
+            color: var(--text-secondary);
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+        .footer-links a:hover { color: var(--text); }
+        .footer-copy {
+            font-size: 13px;
+            color: var(--text-faint);
+        }
+    </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+    <div class="container">
+        <a href="/" class="nav-back">&larr; The Pickleball Official</a>
+    </div>
+</nav>
+
+<!-- CONTENT -->
+<div class="container">
+    <div class="page-header">
+        <h1>Support</h1>
+        <p>Find answers below, or reach out directly.</p>
+    </div>
+
+    <div class="faq-section">
+        <h2>Frequently Asked Questions</h2>
+
+        <div class="faq-item">
+            <h3>How do I use the decision trees?</h3>
+            <p>Open the app and choose the situation that matches what happened on the court -- for example, "Kitchen / NVZ Violation" or "Serving Fault." The app will ask you a series of simple yes-or-no questions about what occurred. At the end, you'll get a clear ruling with the official rule reference from the 2026 USA Pickleball Official Rulebook.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>Does the app work offline?</h3>
+            <p>Yes, completely. Every decision tree and ruling is stored on your device. You don't need Wi-Fi, cellular data, or any internet connection to use the app. This makes it perfect for outdoor courts, recreation centers, or anywhere signal is unreliable.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>What is Apple Intelligence and do I need it?</h3>
+            <p>Apple Intelligence is Apple's on-device AI framework that lets you describe a situation in plain English -- like "my opponent stepped in the kitchen after hitting a volley" -- and the app will match you to the right decision tree. It's a convenience feature, not a requirement. You can always browse and select decision trees manually. Apple Intelligence requires a compatible device running iOS 18.4 or later.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>How do I cancel my subscription?</h3>
+            <p>Your subscription is managed through Apple. To cancel, open the <strong>Settings</strong> app on your iPhone or iPad, tap your name at the top, then tap <strong>Subscriptions</strong>. Find "The Pickleball Official" and tap <strong>Cancel Subscription</strong>. You'll continue to have access until the end of your current billing period. You can also manage subscriptions through the App Store app.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>I found a rule that seems wrong</h3>
+            <p>All decision trees are based on the 2026 USA Pickleball Official Rulebook. If you believe a ruling is incorrect, please email us at <a href="mailto:support@pickleballrulesofficial.com">support@pickleballrulesofficial.com</a> with the specific decision tree, the path you took, and the ruling you received. Include the rule section you believe applies. We take accuracy very seriously and will investigate promptly.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>What rulebook edition is this based on?</h3>
+            <p>The app is based on the <strong>2026 USA Pickleball Official Rulebook</strong>. We update the decision trees when new editions are published to ensure you always have the most current rules at your fingertips.</p>
+        </div>
+    </div>
+
+    <div class="contact-section">
+        <h2>Still need help?</h2>
+        <div class="contact-card">
+            <p>We typically respond within 24 hours.</p>
+            <a href="mailto:support@pickleballrulesofficial.com" class="contact-email">
+                <svg width="18" height="18" viewBox="0 0 20 20" fill="currentColor"><path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"/><path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"/></svg>
+                support@pickleballrulesofficial.com
+            </a>
+        </div>
+    </div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+    <div class="container">
+        <div class="footer-links">
+            <a href="privacy.html">Privacy</a>
+            <a href="mailto:support@pickleballrulesofficial.com">Support</a>
+            <a href="support.html">Terms</a>
+        </div>
+        <p class="footer-copy">&copy; 2026 Centrifical Apps. All rights reserved.</p>
+    </div>
+</footer>
+
+</body>
+</html>
